@@ -6,45 +6,47 @@ start:
   - wait: 300
   - pen says dmg: Ai! Quem foi que jogou esse ovo? Malditas galinhas!
   - gertrudes says: (italic)Pó pó!(bold)
-  - pen says wave: Ah, é o novato! Boas vindas! Desculpa a bagunça! Entre!
+  - pen says wave: Ah, é o novato! Boas vindas! Entre logo que está perigoso ultimamente!
   - hide ALL:
   - show gh_r2: WITH FADE CONTINUE
-  - wait: 2000
+  - wait: 300
   - show pen: look AT CENTER WITH FADE
-  - pen says: Aqui é onde todos os aventureiros da guilda se encontram.
-  - choice:
-    - "Sim!":
-      - pen says happy: That's great! Go ahead!
-    - "Não!":
-      - pen says: Ah, véi. Então vá se rear!
-  - pen says normal: Não se esqueça de fazer os (bold)desafios semanais(end) ou de entrar no nosso (bold)Discord(end)!
-  - pen says happy: Se você já fez, então você é o melhor membro desta guilda. Tô certa!
+  - pen says: Desculpe a minha hostilidade. Alguns membros invocaram uma horda de mortos vivos enquanto faziam pratica de necromancia.
+  - gertrudes says: (italic)Pó, pó! PÓ PÓ PÓ!(end)
+  - pen says wave: Aqui é onde os aventureiros se reunem para descansar após suas longas jornadas. 
+  - pen says prepared2: Não se acanhe! Deixa eu te mostrar as outras salas!
+  - hide ALL:
+  - show gh_r3: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: Aqui é a Casa de Doomads, onde os membros estudam necromancia e se dedicam as artes das trevas.
+  - hide ALL:
+  - show gh_r4: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: Aqui é a Casa de Gaia, onde os membros estudam necromancia e se dedicam as artes das trevas.
+  - hide ALL:
+  - show gh_r5: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: Aqui é a Casa de Enchantia, onde os membros estudam necromancia e se dedicam as artes das trevas.
+  - hide ALL:
+  - show gh_r6: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: Aqui é a Casa de Elementia, onde os membros estudam necromancia e se dedicam as artes das trevas.
+  
   - scene: endGame
-
 endGame:
   - pen says normal: Bye bye!
   - hide ALL:
   - effect ROLLINGCREDITS:
     endGame: true
     text:
-      - RenJS.V2 created by
-      - lunafromthemoon
+      - HollowInk - Visual Novel
+      - Criado com RenJs
       - null
-      - In collaboration with
-      - RockDaFox
-      - null
-      - Inspired by Ren'Py
       - Powered by PhaserJS
-      - null
-      - null
-      - Thanks for playing
-      - The Quickstart Game
-      - null
       - background art and cgs by
-      - konett
+      - Artix Entertainment
       - null
-      - characters by
-      - Shida
       - null
       - music by
       - Evan Schaeffer
+      - Mareoceu
