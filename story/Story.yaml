@@ -1,0 +1,50 @@
+start:
+  - play title:
+  - show gh_r1: WITH FADE CONTINUE
+  - show pen: prepared AT RIGHT WITH FADE
+  - pen says: Alto lá, (bold)herói!(end) Só os membros da guilda podem exercer atividades nas casas.
+  - wait: 300
+  - pen says dmg: Ai! Quem foi que jogou esse ovo? Malditas galinhas!
+  - gertrudes says: (italic)Pó pó!(bold)
+  - pen says wave: Ah, é o novato! Boas vindas! Desculpa a bagunça! Entre!
+  - hide ALL:
+  - show gh_r2: WITH FADE CONTINUE
+  - wait: 2000
+  - show pen: look AT CENTER WITH FADE
+  - pen says: Aqui é onde todos os aventureiros da guilda se encontram.
+  - choice:
+    - "Sim!":
+      - pen says happy: That's great! Go ahead!
+    - "Não!":
+      - pen says: Ah, véi. Então vá se rear!
+  - pen says normal: Não se esqueça de fazer os (bold)desafios semanais(end) ou de entrar no nosso (bold)Discord(end)!
+  - pen says happy: Se você já fez, então você é o melhor membro desta guilda. Tô certa!
+  - scene: endGame
+
+endGame:
+  - pen says normal: Bye bye!
+  - hide ALL:
+  - effect ROLLINGCREDITS:
+    endGame: true
+    text:
+      - RenJS.V2 created by
+      - lunafromthemoon
+      - null
+      - In collaboration with
+      - RockDaFox
+      - null
+      - Inspired by Ren'Py
+      - Powered by PhaserJS
+      - null
+      - null
+      - Thanks for playing
+      - The Quickstart Game
+      - null
+      - background art and cgs by
+      - konett
+      - null
+      - characters by
+      - Shida
+      - null
+      - music by
+      - Evan Schaeffer

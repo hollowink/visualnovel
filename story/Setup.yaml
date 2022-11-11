@@ -1,0 +1,48 @@
+
+backgrounds:
+  gh_r1: assets/backgrounds/guild_hall_bg1.png
+  gh_r2: assets/backgrounds/guild_hall_bg2.png
+  gh_r3: assets/backgrounds/guild_hall_bg3.png
+  
+characters:
+  deuzi:
+    displayName: Yvishandry
+    speechColour: "#FFFFFF"
+    looks:
+      normal: assets/characters/Char1Normal.png
+      happy: assets/characters/Char1Normal.png
+      angry: assets/characters/Char1Normal.png
+  pen:
+    displayName: Pen
+    speechColour: "#FFFFFF"
+    looks:
+      normal: assets/characters/Char2Look.png
+      dmg: assets/characters/Char2Dmg.png
+      look: assets/characters/Char2Look.png
+      prepared: assets/characters/Char2Prepared.png
+      prepared2: assets/characters/Char2Prepared2.png
+      wave: assets/characters/Char2Wave.png
+      
+  gertrudes:
+    displayName: Gertrudes
+    speechColour: "#FFFFFF"
+    looks:
+
+cgs:
+  phone1: assets/objects/phone1.png
+  phone2: assets/objects/phone2.png
+
+music:
+  title: assets/audio/CozyVillage.mp3
+  rollingCredits: assets/audio/Evan_Schaeffer_-_01_-_Aqueduct.mp3
+  morningBGM: assets/audio/Evan_Schaeffer_-_03_-_Glow.mp3
+sfx:
+  ringtoneSFX: assets/audio/nokia6210-24-elise.mp3
+  ringtoneSFX2: assets/audio/alcatel-top_secret.mp3
+
+extra:
+  spritesheets:
+    rain: assets/ambient/rain.png 17 17
+    sakura: assets/ambient/sakura-petals.png 17 26
+    snowflakes: assets/ambient/snowflakes.png 17 17
+    snowflakes_large: assets/ambient/snowflakes_large.png 64 64
