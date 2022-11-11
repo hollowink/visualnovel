@@ -14,8 +14,8 @@ start:
   - show pen: dmg AT RIGHT WITH FUSION CONTINUE
   - unknown says: Ai! Quem foi que jogou esse ovo? Malditas galinhas!
   - unknown says: (italic)Pó pó!(bold)
-  - show pen: prepared AT RIGHT WITH CUT CONTINUE
-  - pen says wave: Ah, é o novato! Boas vindas! Entre logo que está perigoso ultimamente!
+  - show pen: wave AT RIGHT WITH CUT CONTINUE
+  - pen says: Ah, é o novato! Boas vindas! Entre logo pois aqui fora não é seguro!
   - hide ALL:
   - show gh_r2: WITH FADE CONTINUE
   - wait: 300
@@ -48,7 +48,7 @@ casas:
   
   - show gh_r2: WITH FADE CONTINUE
   - show pen: prepared AT RIGHT WITH FADE
-  - pen says: Enfim, vou te deixar a vontade para conhecer a casa.
+  - pen says: Recebemos aventureiros de toda Lore
   
   - scene: endGame
 

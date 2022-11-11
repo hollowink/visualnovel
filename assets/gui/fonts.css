@@ -13,3 +13,32 @@
           font-style: normal;
 
       }
+
+
+@font-face {
+
+          font-family: 'Inter';
+
+          src: url('/assets/gui/Inter.ttf');
+
+          src: url('/assets/gui/inter.ttf').format('truetype');
+
+          font-weight: normal;
+
+          font-style: normal;
+
+      }
+
+@font-face {
+
+          font-family: 'BebasNeue-Regular';
+
+          src: url('/assets/gui/BebasNeue-Regular.ttf');
+
+          src: url('/assets/gui/BebasNeue-Regular.ttf').format('truetype');
+
+          font-weight: normal;
+
+          font-style: normal;
+
+      }

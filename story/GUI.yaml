@@ -18,7 +18,7 @@ config:
         x: 0
         'y': 0
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 32px
           fill: '#FFFFFF'
           align: left
@@ -34,9 +34,9 @@ config:
         x: 24
         'y': 24
         style:
-          font: fontsaudimat-mono
+          font: Inter
           fontSize: 20px
-          fill: '#89BAA8'
+          fill: '#A8A8A8'
           align: left
           wordWrap: true
           wordWrapWidth: '550'
@@ -47,13 +47,13 @@ config:
     - id: default
       type: nameBox
       asset: asset20
-      x: 84
-      'y': 400
+      x: 40
+      'y': 380
       text:
         x: 0
         'y': 0
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 26px
           fill: '#FFFFFF'
           align: left
@@ -120,7 +120,7 @@ config:
         'y': 30
         text: AJUSTES
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 47px
           fill: '#FFFFFF'
           boundsAlignH: center
@@ -130,7 +130,7 @@ config:
         'y': 175
         text: MUSICA
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 33px
           fill: '#FFFFFF'
           boundsAlignH: center
@@ -140,7 +140,7 @@ config:
         'y': 325
         text: SFX
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 33px
           fill: '#FFFFFF'
           boundsAlignH: center
@@ -150,7 +150,7 @@ config:
         'y': 325
         text: VEL. AUTO 
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 33px
           fill: '#FFFFFF'
           boundsAlignH: center
@@ -160,7 +160,7 @@ config:
         'y': 175
         text: VEL. TEXTO
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 33px
           fill: '#FFFFFF'
           boundsAlignH: center
@@ -238,9 +238,9 @@ config:
         'y': 30
         text: CARREGAR
         style:
-          font: fontsaudimat-mono
+          font: BebasNeue-Regular
           fontSize: 47px
-          fill: '#B0B0B0'
+          fill: '#FFFFFF'
           boundsAlignH: left
           boundsAlignV: top
       - type: button
@@ -384,6 +384,13 @@ assets:
     fontsaudimat-mono:
       fileName: fontsfontsaudimat-mono.ttf
       name: fontsaudimat-mono
+    Inter:
+      fileName: Inter.ttf
+      name: Inter
+    BebasNeue-Regular:
+      fileName: BebasNeue-Regular.ttf
+      name: BebasNeue-Regular
+      
   audio:
     Evan_Schaeffer_-_01_-_Aqueduct:
       fileName: audioEvan_Schaeffer_-_01_-_Aqueduct.mp3
