@@ -1,5 +1,4 @@
 start:
-  - scene: casas
   - play title:
   - show gh_c1: AT 400,0
   - animate gh_c1:
@@ -10,22 +9,25 @@ start:
   - hide ALL:
   - show gh_r1: WITH FADE CONTINUE
   - show pen: prepared AT RIGHT WITH FADE
-  - pen says: Alto lá, (bold)herói!(end) Só os membros da guilda podem exercer atividades nas casas.
+  - unknown says: Alto lá, (bold)herói!(end) Só os membros da guilda podem exercer atividades nas casas.
   - wait: 300
-  - pen says dmg: Ai! Quem foi que jogou esse ovo? Malditas galinhas!
-  - gertrudes says: (italic)Pó pó!(bold)
+  - show pen: dmg AT RIGHT WITH FUSION CONTINUE
+  - unknown says: Ai! Quem foi que jogou esse ovo? Malditas galinhas!
+  - unknown says: (italic)Pó pó!(bold)
+  - show pen: prepared AT RIGHT WITH CUT CONTINUE
   - pen says wave: Ah, é o novato! Boas vindas! Entre logo que está perigoso ultimamente!
   - hide ALL:
-  - show gh_c2: WITH FADE CONTINUE
+  - show gh_r2: WITH FADE CONTINUE
   - wait: 300
   - show pen: look AT CENTER WITH FADE
-  - pen says: Desculpe a minha hostilidade.
+  - pen says: Desculpe a minha hostilidade. Eu me chamo Pen e sou o líder desta guilda.
   - pen says: Alguns membros invocaram uma horda de galinhas enquanto faziam prática de necromancia com a Mestra Gertrudes.
   - gertrudes says: (italic)Pó, pó! PÓ PÓ PÓ!(end)
   - pen says wave: Aqui é onde os aventureiros se reunem para descansar após suas longas jornadas. 
   - pen says prepared2: Não se acanhe! Deixa eu te mostrar as outras salas!
   - hide ALL:
   - wait: 300
+  - scene: casas
   
 casas:
   - show gh_c2: AT 400,300
@@ -43,6 +45,11 @@ casas:
   - wait: 300
   - pen says: E, por fim, a (bold)Casa de Elementia(end), morada dos lordes elementais que dedicam sua vida ao estudo dos elementos de Lore.
   - hide ALL:
+  
+  - show gh_r2: WITH FADE CONTINUE
+  - show pen: prepared AT RIGHT WITH FADE
+  - pen says: Enfim, vou te deixar a vontade para conhecer a casa.
+  
   - scene: endGame
 
 endGame:

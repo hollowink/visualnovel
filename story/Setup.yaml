@@ -1,10 +1,14 @@
-
 backgrounds:
   gh_r1: assets/backgrounds/guild_hall_bg1.png
   gh_r2: assets/backgrounds/guild_hall_bg2.png
   gh_r3: assets/backgrounds/guild_hall_bg3.png
   
 characters:
+  unknown:
+    displayName: ???
+    speechColour: "#FFFFFF"
+    looks:
+  
   deuzi:
     displayName: Yvishandry
     speechColour: "#FFFFFF"
@@ -12,7 +16,8 @@ characters:
       normal: assets/characters/Char1Normal.png
       happy: assets/characters/Char1Normal.png
       angry: assets/characters/Char1Normal.png
-  pen:
+  
+  pen:	
     displayName: Pen
     speechColour: "#FFFFFF"
     looks:
