@@ -1,6 +1,5 @@
 
 backgrounds:
-  gh_c1: assets/backgrounds/cuts/guild_hall_cs1.png
   gh_r1: assets/backgrounds/guild_hall_bg1.png
   gh_r2: assets/backgrounds/guild_hall_bg2.png
   gh_r3: assets/backgrounds/guild_hall_bg3.png
@@ -30,8 +29,11 @@ characters:
     looks:
 
 cgs:
-  phone1: assets/objects/phone1.png
-  phone2: assets/objects/phone2.png
+  gh_c1: assets/backgrounds/cuts/guild_hall_cs1.png
+  gh_c2: assets/backgrounds/cuts/guild_hall_cs2.png
+  gh_c3: assets/backgrounds/cuts/guild_hall_cs3.png
+  gh_c4: assets/backgrounds/cuts/guild_hall_cs4.png
+  gh_c5: assets/backgrounds/cuts/guild_hall_cs5.png
 
 music:
   title: assets/audio/CozyVillage.mp3

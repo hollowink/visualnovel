@@ -1,5 +1,13 @@
 start:
+  - scene: casas
   - play title:
+  - show gh_c1: AT 400,0
+  - animate gh_c1:
+    time: 2500
+    position: 
+        x: 400
+        y: 300
+  - hide ALL:
   - show gh_r1: WITH FADE CONTINUE
   - show pen: prepared AT RIGHT WITH FADE
   - pen says: Alto lá, (bold)herói!(end) Só os membros da guilda podem exercer atividades nas casas.
@@ -8,33 +16,36 @@ start:
   - gertrudes says: (italic)Pó pó!(bold)
   - pen says wave: Ah, é o novato! Boas vindas! Entre logo que está perigoso ultimamente!
   - hide ALL:
-  - show gh_r2: WITH FADE CONTINUE
+  - show gh_c2: WITH FADE CONTINUE
   - wait: 300
   - show pen: look AT CENTER WITH FADE
-  - pen says: Desculpe a minha hostilidade. Alguns membros invocaram uma horda de mortos vivos enquanto faziam pratica de necromancia.
+  - pen says: Desculpe a minha hostilidade.
+  - pen says: Alguns membros invocaram uma horda de galinhas enquanto faziam prática de necromancia com a Mestra Gertrudes.
   - gertrudes says: (italic)Pó, pó! PÓ PÓ PÓ!(end)
   - pen says wave: Aqui é onde os aventureiros se reunem para descansar após suas longas jornadas. 
   - pen says prepared2: Não se acanhe! Deixa eu te mostrar as outras salas!
   - hide ALL:
-  - show gh_r3: WITH FADE CONTINUE
   - wait: 300
-  - pen says: Aqui é a Casa de Doomads, onde os membros estudam necromancia e se dedicam as artes das trevas.
-  - hide ALL:
-  - show gh_r4: WITH FADE CONTINUE
-  - wait: 300
-  - pen says: Aqui é a Casa de Gaia, onde os membros estudam necromancia e se dedicam as artes das trevas.
-  - hide ALL:
-  - show gh_r5: WITH FADE CONTINUE
-  - wait: 300
-  - pen says: Aqui é a Casa de Enchantia, onde os membros estudam necromancia e se dedicam as artes das trevas.
-  - hide ALL:
-  - show gh_r6: WITH FADE CONTINUE
-  - wait: 300
-  - pen says: Aqui é a Casa de Elementia, onde os membros estudam necromancia e se dedicam as artes das trevas.
   
+casas:
+  - show gh_c2: AT 400,300
+  - pen says: Aqui é a (bold)Casa de Doomads(end), onde os membros estudam necromancia e se dedicam as artes das trevas.
+  - hide ALL:
+  - show gh_c3: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: Aqui é a (bold)Casa de Gaia(end), lugar onde os ensinamentos da natureza estão acima de tudo. Eu sou o professor desta casa.
+  - hide ALL:
+  - show gh_c4: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: Esta é a (bold)Casa de Enchantia(end). Se você gosta de poções e encantamentos, certamente veio ao lugar certo. Cuidado com a Grã-Mestra Azurih. Ela é ranzinza.
+  - hide ALL:
+  - show gh_c5: WITH FADE CONTINUE
+  - wait: 300
+  - pen says: E, por fim, a (bold)Casa de Elementia(end), morada dos lordes elementais que dedicam sua vida ao estudo dos elementos de Lore.
+  - hide ALL:
   - scene: endGame
+
 endGame:
-  - pen says normal: Bye bye!
   - hide ALL:
   - effect ROLLINGCREDITS:
     endGame: true
