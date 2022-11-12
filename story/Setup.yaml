@@ -9,13 +9,15 @@ characters:
     speechColour: "#FFFFFF"
     looks:
   
-  deuzi:
-    displayName: Yvishandry
+  azurih:
+    displayName: Azurih
     speechColour: "#FFFFFF"
     looks:
-      normal: assets/characters/Char1Normal.png
-      happy: assets/characters/Char1Normal.png
-      angry: assets/characters/Char1Normal.png
+      normal:
+      dmg:
+      look:
+      prepared:
+      wave:
   
   pen:	
     displayName: Pen
