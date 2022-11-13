@@ -15,7 +15,7 @@ start:
   - unknown says: Ai! Quem foi que jogou esse ovo? Malditas galinhas!
   - unknown says: (italic)Pó pó!(bold)
   - show pen: wave AT RIGHT WITH CUT CONTINUE
-  - pen says: Ah, é o novato! Boas vindas! Entre logo pois aqui fora não é seguro!
+  - unknown says: Ah, é o novato! Boas vindas! Entre logo pois aqui fora não é seguro!
   - hide ALL:
   - show gh_r2: WITH FADE CONTINUE
   - wait: 300
